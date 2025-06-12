@@ -1,0 +1,40 @@
+name: OpenLangAI
+options:
+  bundleIdPrefix: com.yourcompany
+configs:
+  Debug: debug
+  Release: release
+schemes:
+  OpenLangAI:
+    build:
+      targets:
+        OpenLangAIApp: [run, test]
+targets:
+  OpenLangAIApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - OpenLangAIApp
+    settings:
+      INFO_PLIST_PATH: OpenLangAIApp/Info.plist
+  AudioPipelineKit:
+    type: framework
+    platform: iOS
+    sources:
+      - Packages/AudioPipelineKit/Sources
+  OpenAIClientKit:
+    type: framework
+    platform: iOS
+    sources:
+      - Packages/OpenAIClientKit/Sources
+  SecureStoreKit:
+    type: framework
+    platform: iOS
+    sources:
+      - Packages/SecureStoreKit/Sources
+  PersistenceKit:
+    type: framework
+    platform: iOS
+    sources:
+      - Packages/PersistenceKit/Sources
