@@ -8,16 +8,16 @@ schemes:
   OpenLangAI:
     build:
       targets:
-        OpenLangAIApp: [run, test]
+        OpenLangAI: [run, test]
 targets:
-  OpenLangAIApp:
+  OpenLangAI:
     type: application
     platform: iOS
-    deploymentTarget: "15.0"
+    deploymentTarget: "18.2"
     sources:
-      - OpenLangAIApp
+      - OpenLangAI
     settings:
-      INFO_PLIST_PATH: OpenLangAIApp/Info.plist
+      INFO_PLIST_PATH: OpenLangAI/Info.plist
   AudioPipelineKit:
     type: framework
     platform: iOS
