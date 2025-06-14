@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,7 +20,7 @@
 		22B92BD2149129CEED955C08 /* OpenAIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIClient.swift; sourceTree = "<group>"; };
 		44B4BABCA8957D117B476171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47EC0750E25E12F172D1375C /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
-		6F222DCD4E2C5DCAE5CF3D38 /* OpenLangAIApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OpenLangAIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F222DCD4E2C5DCAE5CF3D38 /* OpenLangAIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenLangAIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8211376468CB6D96CBC2526F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		9131C988006B9265139E137F /* OpenAIClientKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenAIClientKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AB42035D441555BEB95C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -229,8 +229,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 6A1401F3FD2943E66B55540E /* Build configuration list for PBXProject "OpenLangAI" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -242,7 +240,6 @@
 			);
 			mainGroup = 22C31FBC968C969EC2EA170D;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 54;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -334,7 +331,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.OpenLangAIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.OpenLangAI;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -352,7 +349,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.OpenLangAIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.OpenLangAI;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
