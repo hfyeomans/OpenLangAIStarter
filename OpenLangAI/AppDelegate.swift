@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct OpenLangAIApp: App {
+struct OpenLangAI: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
