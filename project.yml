@@ -1,6 +1,6 @@
 name: OpenLangAI
 options:
-  bundleIdPrefix: com.yourcompany
+  bundleIdPrefix: com.AHTechnologies
 configs:
   Debug: debug
   Release: release
