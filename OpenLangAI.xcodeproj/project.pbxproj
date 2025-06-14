@@ -3,30 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		042316CA23A5B0D1D2476CE7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211376468CB6D96CBC2526F /* CoreDataStack.swift */; };
-		18BF0249E9143976B3C8969A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B4BABCA8957D117B476171 /* AppDelegate.swift */; };
 		4FD89C3D4B23129AB1F7F028 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EC0750E25E12F172D1375C /* KeychainHelper.swift */; };
-		6409CFB3EAA7B4588FAEF524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FABF10D96BEDA791742EF6 /* ContentView.swift */; };
 		77DA080B265F1AA7F883BE3D /* OpenAIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B92BD2149129CEED955C08 /* OpenAIClient.swift */; };
+		8007D33A56259B2A8E45F9AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E6258B4FB43C761DC6DDB /* AppDelegate.swift */; };
+		990A52121606FD9D208C7B61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E643C3A8A43835ECFF64B39 /* ContentView.swift */; };
 		C56DF8DB4C7E613CEC54D6CE /* AudioPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983CEEBF62A4D130CBD3465 /* AudioPipeline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		036E6258B4FB43C761DC6DDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1983CEEBF62A4D130CBD3465 /* AudioPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPipeline.swift; sourceTree = "<group>"; };
+		1E643C3A8A43835ECFF64B39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22B92BD2149129CEED955C08 /* OpenAIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIClient.swift; sourceTree = "<group>"; };
-		44B4BABCA8957D117B476171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47EC0750E25E12F172D1375C /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
-		6F222DCD4E2C5DCAE5CF3D38 /* OpenLangAIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenLangAIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8211376468CB6D96CBC2526F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		9131C988006B9265139E137F /* OpenAIClientKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenAIClientKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5AB42035D441555BEB95C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		961C1B43918F1A22241F44D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BAB63016177C1EDEE2821D26 /* AudioPipelineKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AudioPipelineKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12FA7EC9979E8B419893A6D /* OpenLangAI.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OpenLangAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1D214B56E3AC45EC5ACA3A /* PersistenceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PersistenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5FABF10D96BEDA791742EF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE12C542B114B814691C3A34 /* SecureStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SecureStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,7 @@
 		22C31FBC968C969EC2EA170D = {
 			isa = PBXGroup;
 			children = (
-				72D1F1E35363D53C6A2C3F19 /* OpenLangAIApp */,
+				D11CEC4BE7647A23E66EE859 /* OpenLangAI */,
 				689DF55023E5DEF3E9E33110 /* Sources */,
 				D91776CFE57B25B01F97453E /* Sources */,
 				EB3EC9870A81E2D3A63D0012 /* Sources */,
@@ -76,16 +76,6 @@
 			path = Packages/AudioPipelineKit/Sources;
 			sourceTree = "<group>";
 		};
-		72D1F1E35363D53C6A2C3F19 /* OpenLangAIApp */ = {
-			isa = PBXGroup;
-			children = (
-				44B4BABCA8957D117B476171 /* AppDelegate.swift */,
-				E5FABF10D96BEDA791742EF6 /* ContentView.swift */,
-				A5AB42035D441555BEB95C24 /* Info.plist */,
-			);
-			path = OpenLangAIApp;
-			sourceTree = "<group>";
-		};
 		B48B1E96C97C596CBA86C25D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +83,16 @@
 			);
 			name = Sources;
 			path = Packages/SecureStoreKit/Sources;
+			sourceTree = "<group>";
+		};
+		D11CEC4BE7647A23E66EE859 /* OpenLangAI */ = {
+			isa = PBXGroup;
+			children = (
+				036E6258B4FB43C761DC6DDB /* AppDelegate.swift */,
+				1E643C3A8A43835ECFF64B39 /* ContentView.swift */,
+				961C1B43918F1A22241F44D1 /* Info.plist */,
+			);
+			path = OpenLangAI;
 			sourceTree = "<group>";
 		};
 		D91776CFE57B25B01F97453E /* Sources */ = {
@@ -109,7 +109,7 @@
 			children = (
 				BAB63016177C1EDEE2821D26 /* AudioPipelineKit.framework */,
 				9131C988006B9265139E137F /* OpenAIClientKit.framework */,
-				6F222DCD4E2C5DCAE5CF3D38 /* OpenLangAIApp.app */,
+				D12FA7EC9979E8B419893A6D /* OpenLangAI.app */,
 				DC1D214B56E3AC45EC5ACA3A /* PersistenceKit.framework */,
 				EE12C542B114B814691C3A34 /* SecureStoreKit.framework */,
 			);
@@ -136,21 +136,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28F7595DC2F49E08459C827A /* OpenLangAIApp */ = {
+		13C2C5CE7F0080C833FA60D1 /* OpenLangAI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AC994BC900AFB6A374D2ACB /* Build configuration list for PBXNativeTarget "OpenLangAIApp" */;
+			buildConfigurationList = B2CAE7C6103F7102F053B831 /* Build configuration list for PBXNativeTarget "OpenLangAI" */;
 			buildPhases = (
-				42E1473678F43130CBE031AD /* Sources */,
+				F948CDF95B02693FB22ECC68 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OpenLangAIApp;
+			name = OpenLangAI;
 			packageProductDependencies = (
 			);
-			productName = OpenLangAIApp;
-			productReference = 6F222DCD4E2C5DCAE5CF3D38 /* OpenLangAIApp.app */;
+			productName = OpenLangAI;
+			productReference = D12FA7EC9979E8B419893A6D /* OpenLangAI.app */;
 			productType = "com.apple.product-type.application";
 		};
 		44C249321A094D285EA2B52A /* OpenAIClientKit */ = {
@@ -229,6 +229,8 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 6A1401F3FD2943E66B55540E /* Build configuration list for PBXProject "OpenLangAI" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -240,12 +242,13 @@
 			);
 			mainGroup = 22C31FBC968C969EC2EA170D;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 54;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CEFD82083F3C82A2E70F5136 /* AudioPipelineKit */,
 				44C249321A094D285EA2B52A /* OpenAIClientKit */,
-				28F7595DC2F49E08459C827A /* OpenLangAIApp */,
+				13C2C5CE7F0080C833FA60D1 /* OpenLangAI */,
 				D483CEAA3900298B542D106B /* PersistenceKit */,
 				BAFC7BA5528D264AD1CE9700 /* SecureStoreKit */,
 			);
@@ -253,15 +256,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42E1473678F43130CBE031AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18BF0249E9143976B3C8969A /* AppDelegate.swift in Sources */,
-				6409CFB3EAA7B4588FAEF524 /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6131948CC108A1792C948134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,6 +288,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F948CDF95B02693FB22ECC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8007D33A56259B2A8E45F9AA /* AppDelegate.swift in Sources */,
+				990A52121606FD9D208C7B61 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -311,7 +314,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.OpenAIClientKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.OpenAIClientKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,14 +322,14 @@
 			};
 			name = Debug;
 		};
-		0EDFDC40FA33B7CED45C6FA7 /* Release */ = {
+		49E0568F3C4146EA035C5AFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = OpenLangAIApp/Info.plist;
-				INFO_PLIST_PATH = OpenLangAIApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_FILE = OpenLangAI/Info.plist;
+				INFO_PLIST_PATH = OpenLangAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,24 +339,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
-		};
-		191D8C7F5913D1D8C012DE39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = OpenLangAIApp/Info.plist;
-				INFO_PLIST_PATH = OpenLangAIApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.OpenLangAI;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		49F55DD853C2885DC77C43E1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -486,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.OpenAIClientKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.OpenAIClientKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,7 +493,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.PersistenceKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.PersistenceKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,7 +515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.SecureStoreKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.SecureStoreKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,13 +537,31 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.PersistenceKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.PersistenceKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
+		};
+		96EBC06FCF777F198E38D07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OpenLangAI/Info.plist;
+				INFO_PLIST_PATH = OpenLangAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.OpenLangAI;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		A3899622EBB0BAA1A1D9AF72 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -574,7 +577,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.AudioPipelineKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.AudioPipelineKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -596,7 +599,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.AudioPipelineKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.AudioPipelineKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -618,7 +621,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.SecureStoreKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AHTechnologies.SecureStoreKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -656,20 +659,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8AC994BC900AFB6A374D2ACB /* Build configuration list for PBXNativeTarget "OpenLangAIApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				191D8C7F5913D1D8C012DE39 /* Debug */,
-				0EDFDC40FA33B7CED45C6FA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		9C6216FE479F312FCAD2C0FD /* Build configuration list for PBXNativeTarget "OpenAIClientKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00C9F9AB392F6DB8785C5399 /* Debug */,
 				5EE9677272F104580252F802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B2CAE7C6103F7102F053B831 /* Build configuration list for PBXNativeTarget "OpenLangAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96EBC06FCF777F198E38D07D /* Debug */,
+				49E0568F3C4146EA035C5AFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

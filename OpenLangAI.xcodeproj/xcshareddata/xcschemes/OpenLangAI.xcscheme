@@ -15,9 +15,9 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28F7595DC2F49E08459C827A"
-               BuildableName = "OpenLangAIApp.app"
-               BlueprintName = "OpenLangAIApp"
+               BlueprintIdentifier = "13C2C5CE7F0080C833FA60D1"
+               BuildableName = "OpenLangAI.app"
+               BlueprintName = "OpenLangAI"
                ReferencedContainer = "container:OpenLangAI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28F7595DC2F49E08459C827A"
-            BuildableName = "OpenLangAIApp.app"
-            BlueprintName = "OpenLangAIApp"
+            BlueprintIdentifier = "13C2C5CE7F0080C833FA60D1"
+            BuildableName = "OpenLangAI.app"
+            BlueprintName = "OpenLangAI"
             ReferencedContainer = "container:OpenLangAI.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28F7595DC2F49E08459C827A"
-            BuildableName = "OpenLangAIApp.app"
-            BlueprintName = "OpenLangAIApp"
+            BlueprintIdentifier = "13C2C5CE7F0080C833FA60D1"
+            BuildableName = "OpenLangAI.app"
+            BlueprintName = "OpenLangAI"
             ReferencedContainer = "container:OpenLangAI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -72,9 +72,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28F7595DC2F49E08459C827A"
-            BuildableName = "OpenLangAIApp.app"
-            BlueprintName = "OpenLangAIApp"
+            BlueprintIdentifier = "13C2C5CE7F0080C833FA60D1"
+            BuildableName = "OpenLangAI.app"
+            BlueprintName = "OpenLangAI"
             ReferencedContainer = "container:OpenLangAI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
